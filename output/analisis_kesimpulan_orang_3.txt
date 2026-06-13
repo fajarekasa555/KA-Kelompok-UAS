@@ -1,0 +1,20 @@
+Analisis Komparasi:
+1. Decision Tree memiliki performa yang cukup baik dan mudah diinterpretasikan,
+   tetapi nilainya masih lebih rendah dibandingkan model lain pada tabel ini.
+2. Random Forest meningkatkan performa Decision Tree karena menggunakan banyak
+   pohon keputusan, sehingga hasil prediksi lebih stabil.
+3. Logistic Regression menggunakan fitur yang sudah distandardisasi. Model ini
+   cocok sebagai baseline linear dan dapat menjelaskan hubungan fitur terhadap
+   target secara lebih sederhana.
+4. Berdasarkan perbandingan metrik, model terbaik adalah Logistic Regression
+   dengan F1-score sebesar 0.8235 dan accuracy sebesar
+   0.8033.
+
+Kesimpulan:
+Pada dataset Heart Disease, proses standardisasi penting untuk Logistic
+Regression karena model ini dipengaruhi oleh skala fitur. Setelah dibandingkan
+dengan Decision Tree dan Random Forest, model terbaik dipilih berdasarkan
+keseimbangan precision dan recall melalui F1-score. Model dengan F1-score
+tertinggi lebih direkomendasikan karena dataset ini berhubungan dengan prediksi
+penyakit jantung, sehingga kesalahan klasifikasi perlu diminimalkan secara
+seimbang.
